@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\P237_Nest.props" />
+</Project>

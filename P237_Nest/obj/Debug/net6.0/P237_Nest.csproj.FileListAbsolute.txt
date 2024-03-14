@@ -492,3 +492,4 @@ C:\Users\asger\Desktop\Files\P237_Nest\P237_Nest\obj\Debug\net6.0\refint\P237_Ne
 C:\Users\asger\Desktop\Files\P237_Nest\P237_Nest\obj\Debug\net6.0\P237_Nest.pdb
 C:\Users\asger\Desktop\Files\P237_Nest\P237_Nest\obj\Debug\net6.0\P237_Nest.genruntimeconfig.cache
 C:\Users\asger\Desktop\Files\P237_Nest\P237_Nest\obj\Debug\net6.0\ref\P237_Nest.dll
+C:\Users\asger\Desktop\Files\P237_Nest\P237_Nest\obj\Debug\net6.0\P237_Nest.sourcelink.json

@@ -51,6 +51,48 @@
                     </div>
                 </div>
             </li>
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseProduct"
+                   aria-expanded="false" aria-controls="collapseProduct">
+                    <i class="fas fa-fw fa-cog"></i>
+                    <span>Products</span>
+                </a>
+                <div id="collapseProduct" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        @* <h6 class="collapse-header">Custom Components:</h6> *@
+                        <a class="collapse-item" asp-controller="Product" asp-action="Index">Product List</a>
+                        <a class="collapse-item" asp-controller="Product" asp-action="Create">Product Create</a>
+                    </div>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#Size"
+                   aria-expanded="true" aria-controls="Size">
+                    <i class="fas fa-fw fa-cog"></i>
+                    <span>Sizes</span>
+                </a>
+                <div id="Size" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        @* <h6 class="collapse-header">Custom Components:</h6> *@
+                        <a class="collapse-item" asp-controller="Size" asp-action="Index">Size List</a>
+                        <a class="collapse-item" asp-controller="Size" asp-action="Create">Size Create</a>
+                    </div>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#pSize"
+                   aria-expanded="true" aria-controls="pSize">
+                    <i class="fas fa-fw fa-cog"></i>
+                    <span>Product Sizes</span>
+                </a>
+                <div id="pSize" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        @* <h6 class="collapse-header">Custom Components:</h6> *@
+                        <a class="collapse-item" asp-controller="ProductSize" asp-action="Index">Product Sizes List</a>
+                        <a class="collapse-item" asp-controller="ProductSize" asp-action="Create">Product Sizess Create</a>
+                    </div>
+                </div>
+            </li>
 
         </ul>
         <!-- End of Sidebar -->

@@ -89,9 +89,9 @@
                             <div class="product-cart-wrap mb-30">
                                 <div class="product-img-action-wrap">
                                     <div class="product-img product-img-zoom">
-                                        <a href="shop-product-right.html">
-                                            <img class="default-img" src="~/client/@(product.ProductImages.FirstOrDefault(x=>x.IsMain).Url)" alt="" />
-                                            <img class="hover-img" style="" src="~/client/@(product.ProductImages.FirstOrDefault(x=>x.IsHover).Url)" alt="" />
+                                        <a asp-controller="Product" asp-action="Detail" asp-route-id="@product.Id">
+                                            <img class="default-img" src="~/client/assets/imgs/products/@(product.ProductImages.FirstOrDefault(x=>x.IsMain).Url)" alt="" />
+                                            <img class="hover-img" style="" src="~/client/assets/imgs/products/@(product.ProductImages.FirstOrDefault(x=>x.IsHover).Url)" alt="" />
                                         </a>
                                     </div>
                                     <div class="product-action-1">
@@ -105,9 +105,9 @@
                                 </div>
                                 <div class="product-content-wrap">
                                     <div class="product-category">
-                                        <a href="shop-grid-right.html">@product.Category.Name</a>
+                                        <a >@product.Category.Name</a>
                                     </div>
-                                    <h2><a href="shop-product-right.html">@product.Name</a></h2>
+                                    <h2><a asp-controller="Product" asp-action="Detail" asp-route-id="@product.Id">@product.Name</a></h2>
                                     <div class="product-rate-cover">
                                         <div class="product-rate d-inline-block">
                                             <div class="product-rating" style="width: @(product.Rating * 20)%"></div>

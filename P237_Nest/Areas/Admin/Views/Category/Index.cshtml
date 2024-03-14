@@ -26,16 +26,9 @@
                                         <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="2" aria-label="Position: activate to sort column ascending" style="width: 296.2px;">Actions</th>
                                     </tr>
                                 </thead>
-                                <tbody>
-                                    @foreach (var category in Model)
-                                    {
-                                        <tr class="odd">
-                                            <td class="sorting_1">@category.Name</td>
-                                            <td style="display:flex; justify-content:center; align-items:center"><img width="40" src="~/client/assets/categoryIcons/@category.Icon" /></td>
-                                            <td><a class="btn btn-danger" asp-controller="Category" asp-action="Delete" asp-route-id="@category.Id">Delete</a></td>
-                                            <td><a class="btn btn-warning" asp-controller="Category" asp-action="Edit" asp-route-id="@category.Id">Edit</a></td>
-                                        </tr>
-                                    }
+                                <tbody id="tbody">
+                                    @* @await Html.PartialAsync("_CategoryPartial",Model) *@
+                                    <partial name="_CategoryPartial" model="Model" />
                                 </tbody>
                             </table>
                         </div>
@@ -47,3 +40,61 @@
 
 </div>
 
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script>
+        const swalWithBootstrapButtons = Swal.mixin({
+            customClass: {
+                confirmButton: "btn btn-success",
+                cancelButton: "btn btn-danger"
+            },
+            buttonsStyling: false
+        });
+
+        const deleteBtn = document.querySelectorAll(".deleteBtn");
+        deleteBtn.forEach(x => {
+            x.addEventListener("click", function (e) {
+                e.preventDefault();
+                swalWithBootstrapButtons.fire({
+                    title: "Are you sure?",
+                    text: "You won't be able to revert this!",
+                    icon: "warning",
+                    showCancelButton: true,
+                    confirmButtonText: "Yes, delete it!",
+                    cancelButtonText: "No, cancel!",
+                    reverseButtons: true
+                }).then((result) => {
+                    if (result.isConfirmed) {
+
+                        const categoryId = this.dataset.id;
+                        console.log(categoryId);
+                        $.ajax({
+                            type: "POST",
+                            url: `Category/Delete/${categoryId}`,
+                            success: function (res) {
+                                console.log(res)
+                                $("#tbody").html(res);
+                            },
+                            error: function (err) {
+                                console.log(err)
+                            }
+                        })
+
+                    } else if (
+                        /* Read more about handling dismissals below */
+                        result.dismiss === Swal.DismissReason.cancel
+                    ) {
+                        swalWithBootstrapButtons.fire({
+                            title: "Cancelled",
+                            text: "Your imaginary file is safe :)",
+                            icon: "error"
+                        });
+                    }
+                });
+            })
+        })
+
+
+    </script>
+}

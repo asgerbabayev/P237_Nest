@@ -1,0 +1,10 @@
+﻿@model List<Size>
+
+@foreach (var size in Model)
+{
+    <tr class="odd">
+        <td class="sorting_1">@size.Name</td>
+        <td><a class="btn btn-danger deleteBtn" asp-controller="Size" asp-action="Delete" data-id="@size.Id">Delete</a></td>
+        <td><a class="btn btn-warning" asp-controller="Size" asp-action="Edit" asp-route-id="@size.Id">Edit</a></td>
+    </tr>
+}

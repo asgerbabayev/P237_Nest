@@ -30,7 +30,8 @@ public class CategoryController : Controller
     [HttpPost]
     public async Task<IActionResult> Create(Category category)
     {
-        //if (!ModelState.IsValid) return View(category);
+        if (ModelState["Name"] == null ||
+            ModelState["File"] == null) return View(category);
 
         if (!category.File.CheckFileType("image"))
         {
@@ -89,11 +90,7 @@ public class CategoryController : Controller
                 return View(category);
             }
 
-            var path = Path.Combine(_env.WebRootPath, "client", "assets", "categoryIcons", existsCategory.Icon);
-            if (System.IO.File.Exists(path))
-            {
-                System.IO.File.Delete(path);
-            }
+            category.File.DeleteFile(_env.WebRootPath, "client", "assets", "categoryIcons", existsCategory.Icon);
 
             var uniqueFileName = await category.File.
                 SaveFileAsync(_env.WebRootPath, "client", "assets", "categoryIcons");
@@ -113,14 +110,10 @@ public class CategoryController : Controller
         {
             return RedirectToAction("Edit", new { id = id });
         }
-
-
-
         return RedirectToAction("Index");
-
     }
 
-    [HttpGet]
+    [HttpPost]
     public async Task<IActionResult> Delete(int id)
     {
         Category? category = await _context.Categories.FirstOrDefaultAsync(x => x.Id == id);
@@ -128,14 +121,13 @@ public class CategoryController : Controller
         {
             return NotFound();
         }
-        //_context.Categories.Remove(category); hard delete
-        //var path = Path.Combine(_env.WebRootPath, "client", "assets", "categoryIcons", category.Icon);
-        //if (System.IO.File.Exists(path))
-        //{
-        //    System.IO.File.Delete(path);
-        //}
+        //category.File.DeleteFile(_env.WebRootPath, "client", "assets", "categoryIcons", existsCategory.Icon);
+
         category.SoftDelete = true; // soft delete
         await _context.SaveChangesAsync();
-        return RedirectToAction(nameof(Index));
+
+        var categories = await _context.Categories.Include(x => x.Products).Where(x => !x.SoftDelete).ToListAsync();
+
+        return PartialView("_CategoryPartial", categories);
     }
 }

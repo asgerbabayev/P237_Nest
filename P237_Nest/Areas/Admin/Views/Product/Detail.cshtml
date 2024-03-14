@@ -1,0 +1,42 @@
+﻿@model Product
+@{
+    int count = 1;
+}
+<div class="container">
+
+    <div class="d-flex justify-content-center align-items-center flex-column">
+        <h2>Product Name: @Model.Name</h2>
+           <p>Description: @Model.Description</p>
+
+        <table class="table table-secondary table-hover">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Size</th>
+                    <th>Stock Count</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var size in Model.ProductSizes)
+                {
+                    <tr>
+                        <td>@(count++)</td>
+                        <td>@size.Size.Name</td>
+                        <td>@size.Count</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+
+    </div>
+    <div class="row" style="gap:30px;">
+        @foreach (var item in @Model.ProductImages)
+        {
+            <div class="col-2">
+                <img style="width:200px;" src="~/client/assets/imgs/products/@item.Url" />
+            </div>
+        }
+    </div>
+
+</div>

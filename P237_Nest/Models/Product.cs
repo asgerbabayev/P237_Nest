@@ -26,18 +26,3 @@ public class Product
         ProductSizes = new HashSet<ProductSize>();
     }
 }
-
-//public class ProductVm
-//{
-//    public string Name { get; set; } = null!;
-//    public string Description { get; set; } = null!;
-//    public double? Rating { get; set; }
-//    public decimal SellPrice { get; set; } = default!;
-//    public decimal? DiscountPrice { get; set; }
-//    public List<IFormFile>? Files { get; set; }
-//    public IFormFile MainFile { get; set; }
-//    public IFormFile HoverFile { get; set; }
-//    public int CategoryId { get; set; }
-
-
-//}

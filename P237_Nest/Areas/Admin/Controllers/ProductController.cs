@@ -106,6 +106,7 @@ public class ProductController : Controller
         product.ProductImages.Add(hoverProductImageCreate);
 
 
+
         await _context.Products.AddAsync(product);
 
         await _context.SaveChangesAsync();

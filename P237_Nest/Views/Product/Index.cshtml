@@ -83,60 +83,7 @@
                     </div>
                 </div>
                 <div class="row product-grid">
-                    @foreach (var product in Model.Products)
-                    {
-                        <div class="col-lg-1-5 col-md-4 col-12 col-sm-6">
-                            <div class="product-cart-wrap mb-30">
-                                <div class="product-img-action-wrap">
-                                    <div class="product-img product-img-zoom">
-                                        <a asp-controller="Product" asp-action="Detail" asp-route-id="@product.Id">
-                                            <img class="default-img" src="~/client/assets/imgs/products/@(product.ProductImages.FirstOrDefault(x=>x.IsMain).Url)" alt="" />
-                                            <img class="hover-img" style="" src="~/client/assets/imgs/products/@(product.ProductImages.FirstOrDefault(x=>x.IsHover).Url)" alt="" />
-                                        </a>
-                                    </div>
-                                    <div class="product-action-1">
-                                        <a aria-label="Add To Wishlist" class="action-btn" href="shop-wishlist.html"><i class="fi-rs-heart"></i></a>
-                                        <a aria-label="Compare" class="action-btn" href="shop-compare.html"><i class="fi-rs-shuffle"></i></a>
-                                        <a aria-label="Quick view" class="action-btn" data-bs-toggle="modal" data-bs-target="#quickViewModal"><i class="fi-rs-eye"></i></a>
-                                    </div>
-                                    <div class="product-badges product-badges-position product-badges-mrg">
-                                        <span class="hot">Hot</span>
-                                    </div>
-                                </div>
-                                <div class="product-content-wrap">
-                                    <div class="product-category">
-                                        <a >@product.Category.Name</a>
-                                    </div>
-                                    <h2><a asp-controller="Product" asp-action="Detail" asp-route-id="@product.Id">@product.Name</a></h2>
-                                    <div class="product-rate-cover">
-                                        <div class="product-rate d-inline-block">
-                                            <div class="product-rating" style="width: @(product.Rating * 20)%"></div>
-                                        </div>
-                                        <span class="font-small ml-5 text-muted"> (@(product.Rating))</span>
-                                    </div>
-                                    <div>
-                                        <span class="font-small text-muted">By <a href="vendor-details-1.html">NestFood</a></span>
-                                    </div>
-                                    <div class="product-card-bottom">
-                                        <div class="product-price">
-                                            @if (product.DiscountPrice > 0)
-                                            {
-                                                <span>$@product.DiscountPrice</span>
-                                                <span class="old-price">$@product.SellPrice</span>
-                                            }
-                                            else
-                                            {
-                                                <span>$@product.SellPrice</span>
-                                            }
-                                        </div>
-                                        <div class="add-cart">
-                                            <a class="add" href="shop-cart.html"><i class="fi-rs-shopping-cart mr-5"></i>Add </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    }
+                    @await Component.InvokeAsync("Product");
                     <!--end product card-->
                 </div>
                 <!--product grid-->
@@ -307,7 +254,7 @@
                                                 <span class="old-price">$16.8</span>
                                             </div>
                                             <div class="add-cart">
-                                                <a class="add" href="shop-cart.html"><i class="fi-rs-shopping-cart mr-5"></i>Add </a>
+                                                <a class="add" asp-controller="Product" asp-action="AddToCart"><i class="fi-rs-shopping-cart mr-5"></i>Add To Cart</a>
                                             </div>
                                         </div>
                                     </div>

@@ -1,0 +1,25 @@
+﻿@model ProductSizeVm
+
+<form asp-action="Create" method="post" enctype="multipart/form-data">
+    <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Size</label>
+        <select asp-for="SizeId" asp-items="@(new SelectList(ViewBag.Sizes,nameof(Size.Id),nameof(Size.Name)))" class="form-control">
+            <option selected>Select Size</option>
+        </select>
+        <span asp-validation-for="SizeId" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Product</label>
+        <select asp-for="ProductId" asp-items="@(new SelectList(ViewBag.Products,nameof(Product.Id),nameof(Product.Name)))" class="form-control">
+            <option selected>Select Product</option>
+        </select>
+        <span asp-validation-for="ProductId" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Count</label>
+        <input asp-for="Count" class="form-control" id="exampleInputPassword1">
+        <span asp-validation-for="Count" class="text-danger"></span>
+    </div>
+    <div asp-validation-summary="ModelOnly" class="text-danger">  </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+</form>

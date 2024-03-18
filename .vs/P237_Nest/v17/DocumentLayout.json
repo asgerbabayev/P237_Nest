@@ -7,28 +7,44 @@
       "RelativeMoniker": "D:0:0:{38201B4D-D0AE-4570-B93C-DE22E9C882F1}|P237_Nest\\P237_Nest.csproj|solutionrelative:p237_nest\\areas\\admin\\controllers\\productsizecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38201B4D-D0AE-4570-B93C-DE22E9C882F1}|P237_Nest\\P237_Nest.csproj|c:\\users\\asger\\desktop\\files\\p237_nest\\p237_nest\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{38201B4D-D0AE-4570-B93C-DE22E9C882F1}|P237_Nest\\P237_Nest.csproj|solutionrelative:p237_nest\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{38201B4D-D0AE-4570-B93C-DE22E9C882F1}|P237_Nest\\P237_Nest.csproj|c:\\users\\asger\\desktop\\files\\p237_nest\\p237_nest\\models\\productsize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38201B4D-D0AE-4570-B93C-DE22E9C882F1}|P237_Nest\\P237_Nest.csproj|solutionrelative:p237_nest\\models\\productsize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38201B4D-D0AE-4570-B93C-DE22E9C882F1}|P237_Nest\\P237_Nest.csproj|c:\\users\\asger\\desktop\\files\\p237_nest\\p237_nest\\areas\\admin\\views\\productsize\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{38201B4D-D0AE-4570-B93C-DE22E9C882F1}|P237_Nest\\P237_Nest.csproj|solutionrelative:p237_nest\\areas\\admin\\views\\productsize\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{38201B4D-D0AE-4570-B93C-DE22E9C882F1}|P237_Nest\\P237_Nest.csproj|c:\\users\\asger\\desktop\\files\\p237_nest\\p237_nest\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38201B4D-D0AE-4570-B93C-DE22E9C882F1}|P237_Nest\\P237_Nest.csproj|solutionrelative:p237_nest\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38201B4D-D0AE-4570-B93C-DE22E9C882F1}|P237_Nest\\P237_Nest.csproj|c:\\users\\asger\\desktop\\files\\p237_nest\\p237_nest\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38201B4D-D0AE-4570-B93C-DE22E9C882F1}|P237_Nest\\P237_Nest.csproj|solutionrelative:p237_nest\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{38201B4D-D0AE-4570-B93C-DE22E9C882F1}|P237_Nest\\P237_Nest.csproj|c:\\users\\asger\\desktop\\files\\p237_nest\\p237_nest\\viewcomponents\\cartviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38201B4D-D0AE-4570-B93C-DE22E9C882F1}|P237_Nest\\P237_Nest.csproj|solutionrelative:p237_nest\\viewcomponents\\cartviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38201B4D-D0AE-4570-B93C-DE22E9C882F1}|P237_Nest\\P237_Nest.csproj|c:\\users\\asger\\desktop\\files\\p237_nest\\p237_nest\\areas\\admin\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{38201B4D-D0AE-4570-B93C-DE22E9C882F1}|P237_Nest\\P237_Nest.csproj|solutionrelative:p237_nest\\areas\\admin\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{38201B4D-D0AE-4570-B93C-DE22E9C882F1}|P237_Nest\\P237_Nest.csproj|c:\\users\\asger\\desktop\\files\\p237_nest\\p237_nest\\views\\shared\\components\\cart\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{38201B4D-D0AE-4570-B93C-DE22E9C882F1}|P237_Nest\\P237_Nest.csproj|solutionrelative:p237_nest\\views\\shared\\components\\cart\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38201B4D-D0AE-4570-B93C-DE22E9C882F1}|P237_Nest\\P237_Nest.csproj|c:\\users\\asger\\desktop\\files\\p237_nest\\p237_nest\\models\\size.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38201B4D-D0AE-4570-B93C-DE22E9C882F1}|P237_Nest\\P237_Nest.csproj|solutionrelative:p237_nest\\models\\size.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{38201B4D-D0AE-4570-B93C-DE22E9C882F1}|P237_Nest\\P237_Nest.csproj|c:\\users\\asger\\desktop\\files\\p237_nest\\p237_nest\\viewmodels\\basketitemsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38201B4D-D0AE-4570-B93C-DE22E9C882F1}|P237_Nest\\P237_Nest.csproj|solutionrelative:p237_nest\\viewmodels\\basketitemsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38201B4D-D0AE-4570-B93C-DE22E9C882F1}|P237_Nest\\P237_Nest.csproj|c:\\users\\asger\\desktop\\files\\p237_nest\\p237_nest\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38201B4D-D0AE-4570-B93C-DE22E9C882F1}|P237_Nest\\P237_Nest.csproj|solutionrelative:p237_nest\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{38201B4D-D0AE-4570-B93C-DE22E9C882F1}|P237_Nest\\P237_Nest.csproj|c:\\users\\asger\\desktop\\files\\p237_nest\\p237_nest\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{38201B4D-D0AE-4570-B93C-DE22E9C882F1}|P237_Nest\\P237_Nest.csproj|solutionrelative:p237_nest\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38201B4D-D0AE-4570-B93C-DE22E9C882F1}|P237_Nest\\P237_Nest.csproj|c:\\users\\asger\\desktop\\files\\p237_nest\\p237_nest\\viewmodels\\basketvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38201B4D-D0AE-4570-B93C-DE22E9C882F1}|P237_Nest\\P237_Nest.csproj|solutionrelative:p237_nest\\viewmodels\\basketvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38201B4D-D0AE-4570-B93C-DE22E9C882F1}|P237_Nest\\P237_Nest.csproj|c:\\users\\asger\\desktop\\files\\p237_nest\\p237_nest\\views\\shared\\components\\product\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{38201B4D-D0AE-4570-B93C-DE22E9C882F1}|P237_Nest\\P237_Nest.csproj|solutionrelative:p237_nest\\views\\shared\\components\\product\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38201B4D-D0AE-4570-B93C-DE22E9C882F1}|P237_Nest\\P237_Nest.csproj|c:\\users\\asger\\desktop\\files\\p237_nest\\p237_nest\\viewcomponents\\productviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38201B4D-D0AE-4570-B93C-DE22E9C882F1}|P237_Nest\\P237_Nest.csproj|solutionrelative:p237_nest\\viewcomponents\\productviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38201B4D-D0AE-4570-B93C-DE22E9C882F1}|P237_Nest\\P237_Nest.csproj|c:\\users\\asger\\desktop\\files\\p237_nest\\p237_nest\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{38201B4D-D0AE-4570-B93C-DE22E9C882F1}|P237_Nest\\P237_Nest.csproj|solutionrelative:p237_nest\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,15 +58,15 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\asger\\Desktop\\Files\\P237_Nest\\P237_Nest\\Areas\\Admin\\Views\\ProductSize\\Index.cshtml",
-              "RelativeDocumentMoniker": "P237_Nest\\Areas\\Admin\\Views\\ProductSize\\Index.cshtml",
-              "ToolTip": "C:\\Users\\asger\\Desktop\\Files\\P237_Nest\\P237_Nest\\Areas\\Admin\\Views\\ProductSize\\Index.cshtml",
-              "RelativeToolTip": "P237_Nest\\Areas\\Admin\\Views\\ProductSize\\Index.cshtml",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAAB4AAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-14T13:29:12.413Z",
+              "DocumentIndex": 1,
+              "Title": "ProductSize.cs",
+              "DocumentMoniker": "C:\\Users\\asger\\Desktop\\Files\\P237_Nest\\P237_Nest\\Models\\ProductSize.cs",
+              "RelativeDocumentMoniker": "P237_Nest\\Models\\ProductSize.cs",
+              "ToolTip": "C:\\Users\\asger\\Desktop\\Files\\P237_Nest\\P237_Nest\\Models\\ProductSize.cs",
+              "RelativeToolTip": "P237_Nest\\Models\\ProductSize.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T13:35:24.582Z",
               "EditorCaption": ""
             },
             {
@@ -61,74 +77,126 @@
               "RelativeDocumentMoniker": "P237_Nest\\Areas\\Admin\\Controllers\\ProductSizeController.cs",
               "ToolTip": "C:\\Users\\asger\\Desktop\\Files\\P237_Nest\\P237_Nest\\Areas\\Admin\\Controllers\\ProductSizeController.cs",
               "RelativeToolTip": "P237_Nest\\Areas\\Admin\\Controllers\\ProductSizeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAvAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAowB8AAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-14T13:29:04.791Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Size.cs",
-              "DocumentMoniker": "C:\\Users\\asger\\Desktop\\Files\\P237_Nest\\P237_Nest\\Models\\Size.cs",
-              "RelativeDocumentMoniker": "P237_Nest\\Models\\Size.cs",
-              "ToolTip": "C:\\Users\\asger\\Desktop\\Files\\P237_Nest\\P237_Nest\\Models\\Size.cs",
-              "RelativeToolTip": "P237_Nest\\Models\\Size.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-14T13:23:51.008Z",
+              "WhenOpened": "2024-03-18T13:34:46.445Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\asger\\Desktop\\Files\\P237_Nest\\P237_Nest\\Areas\\Admin\\Views\\Product\\Create.cshtml",
-              "RelativeDocumentMoniker": "P237_Nest\\Areas\\Admin\\Views\\Product\\Create.cshtml",
-              "ToolTip": "C:\\Users\\asger\\Desktop\\Files\\P237_Nest\\P237_Nest\\Areas\\Admin\\Views\\Product\\Create.cshtml",
-              "RelativeToolTip": "P237_Nest\\Areas\\Admin\\Views\\Product\\Create.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAOAAAA",
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\asger\\Desktop\\Files\\P237_Nest\\P237_Nest\\Views\\Shared\\Components\\Cart\\Default.cshtml",
+              "RelativeDocumentMoniker": "P237_Nest\\Views\\Shared\\Components\\Cart\\Default.cshtml",
+              "ToolTip": "C:\\Users\\asger\\Desktop\\Files\\P237_Nest\\P237_Nest\\Views\\Shared\\Components\\Cart\\Default.cshtml",
+              "RelativeToolTip": "P237_Nest\\Views\\Shared\\Components\\Cart\\Default.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-14T12:39:12.804Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\asger\\Desktop\\Files\\P237_Nest\\P237_Nest\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "P237_Nest\\Models\\Product.cs",
-              "ToolTip": "C:\\Users\\asger\\Desktop\\Files\\P237_Nest\\P237_Nest\\Models\\Product.cs",
-              "RelativeToolTip": "P237_Nest\\Models\\Product.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAIA3wB0AAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-14T12:33:39.576Z",
+              "WhenOpened": "2024-03-18T12:38:41.446Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\asger\\Desktop\\Files\\P237_Nest\\P237_Nest\\Areas\\Admin\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "P237_Nest\\Areas\\Admin\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\asger\\Desktop\\Files\\P237_Nest\\P237_Nest\\Areas\\Admin\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "P237_Nest\\Areas\\Admin\\Controllers\\ProductController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAEAAAA",
+              "Title": "CartViewComponent.cs",
+              "DocumentMoniker": "C:\\Users\\asger\\Desktop\\Files\\P237_Nest\\P237_Nest\\ViewComponents\\CartViewComponent.cs",
+              "RelativeDocumentMoniker": "P237_Nest\\ViewComponents\\CartViewComponent.cs",
+              "ToolTip": "C:\\Users\\asger\\Desktop\\Files\\P237_Nest\\P237_Nest\\ViewComponents\\CartViewComponent.cs",
+              "RelativeToolTip": "P237_Nest\\ViewComponents\\CartViewComponent.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAowCkAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-14T12:29:30.576Z",
+              "WhenOpened": "2024-03-18T12:37:08.427Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\asger\\Desktop\\Files\\P237_Nest\\P237_Nest\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "P237_Nest\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\asger\\Desktop\\Files\\P237_Nest\\P237_Nest\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "P237_Nest\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAD8AAAAAAAAAAAAAAEEAAAAWAAAA",
+              "DocumentMoniker": "C:\\Users\\asger\\Desktop\\Files\\P237_Nest\\P237_Nest\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "P237_Nest\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\asger\\Desktop\\Files\\P237_Nest\\P237_Nest\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "P237_Nest\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAPgAAAAAAAAAAAAgwAUBAABIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-14T12:23:14.943Z",
+              "WhenOpened": "2024-03-18T12:35:31.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\asger\\Desktop\\Files\\P237_Nest\\P237_Nest\\Views\\Shared\\Components\\Product\\Default.cshtml",
+              "RelativeDocumentMoniker": "P237_Nest\\Views\\Shared\\Components\\Product\\Default.cshtml",
+              "ToolTip": "C:\\Users\\asger\\Desktop\\Files\\P237_Nest\\P237_Nest\\Views\\Shared\\Components\\Product\\Default.cshtml",
+              "RelativeToolTip": "P237_Nest\\Views\\Shared\\Components\\Product\\Default.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAADAAAABnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-18T11:25:21.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\asger\\Desktop\\Files\\P237_Nest\\P237_Nest\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "P237_Nest\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\asger\\Desktop\\Files\\P237_Nest\\P237_Nest\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "P237_Nest\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAADwvzEAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T11:16:50.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BasketItemsVm.cs",
+              "DocumentMoniker": "C:\\Users\\asger\\Desktop\\Files\\P237_Nest\\P237_Nest\\ViewModels\\BasketItemsVm.cs",
+              "RelativeDocumentMoniker": "P237_Nest\\ViewModels\\BasketItemsVm.cs",
+              "ToolTip": "C:\\Users\\asger\\Desktop\\Files\\P237_Nest\\P237_Nest\\ViewModels\\BasketItemsVm.cs",
+              "RelativeToolTip": "P237_Nest\\ViewModels\\BasketItemsVm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T12:39:31.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProductViewComponent.cs",
+              "DocumentMoniker": "C:\\Users\\asger\\Desktop\\Files\\P237_Nest\\P237_Nest\\ViewComponents\\ProductViewComponent.cs",
+              "RelativeDocumentMoniker": "P237_Nest\\ViewComponents\\ProductViewComponent.cs",
+              "ToolTip": "C:\\Users\\asger\\Desktop\\Files\\P237_Nest\\P237_Nest\\ViewComponents\\ProductViewComponent.cs",
+              "RelativeToolTip": "P237_Nest\\ViewComponents\\ProductViewComponent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T11:21:28.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BasketVm.cs",
+              "DocumentMoniker": "C:\\Users\\asger\\Desktop\\Files\\P237_Nest\\P237_Nest\\ViewModels\\BasketVm.cs",
+              "RelativeDocumentMoniker": "P237_Nest\\ViewModels\\BasketVm.cs",
+              "ToolTip": "C:\\Users\\asger\\Desktop\\Files\\P237_Nest\\P237_Nest\\ViewModels\\BasketVm.cs",
+              "RelativeToolTip": "P237_Nest\\ViewModels\\BasketVm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T12:13:58.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\asger\\Desktop\\Files\\P237_Nest\\P237_Nest\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "P237_Nest\\Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\Users\\asger\\Desktop\\Files\\P237_Nest\\P237_Nest\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "P237_Nest\\Views\\Product\\Index.cshtml",
+              "ViewState": "AQIAAEwAAAAAAAAAAAAgwFUAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-18T11:16:57.015Z",
               "EditorCaption": ""
             }
           ]

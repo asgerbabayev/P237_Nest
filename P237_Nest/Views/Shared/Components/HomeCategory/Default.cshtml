@@ -1,0 +1,18 @@
+﻿@model List<Category>
+
+<li class="nav-item" role="presentation">
+    <a href="#" class="nav-link active category-item">
+        All
+    </a>
+</li>
+
+@foreach (var category in Model)
+{
+    <li class="nav-item" role="presentation">
+        <a href="#" data-id="@category.Id" class="nav-link category-item">
+            @category.Name
+        </a>
+    </li>
+}
+
+

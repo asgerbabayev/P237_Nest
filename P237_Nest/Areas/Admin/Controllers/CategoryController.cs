@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using P237_Nest.Data;
 using P237_Nest.Extensions;
@@ -7,7 +8,7 @@ using P237_Nest.Models;
 namespace P237_Nest.Areas.Admin.Controllers;
 
 [Area("Admin")]
-
+[Authorize(Roles = "Admin")]
 public class CategoryController : Controller
 {
     private readonly AppDbContext _context;
@@ -61,12 +62,12 @@ public class CategoryController : Controller
     {
         if (id == null || id == 0)
         {
-            return NotFound();
+            return View("404");
         }
         Category? category = await _context.Categories.AsNoTracking().FirstOrDefaultAsync(x => x.Id == id);
         if (category == null)
         {
-            return NotFound();
+            return View("404");
         }
         return View(category);
     }

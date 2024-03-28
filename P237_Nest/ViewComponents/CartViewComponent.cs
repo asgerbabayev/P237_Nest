@@ -21,7 +21,7 @@ public class CartViewComponent : ViewComponent
         List<BasketItemsVm> basketItemsVm = new List<BasketItemsVm>();
         foreach (var basketData in basketVm)
         {
-            var product = await _context.Products.FirstOrDefaultAsync(x => x.Id == basketData.Id);
+            var product = await _context.Products.Include(x => x.ProductImages).FirstOrDefaultAsync(x => x.Id == basketData.Id);
             basketItemsVm.Add(new BasketItemsVm()
             {
                 Count = basketData.Count,

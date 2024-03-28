@@ -14,16 +14,9 @@ public class ProductController : Controller
     {
         _context = context;
     }
-    public async Task<IActionResult> Index()
+    public IActionResult Index()
     {
-        var categories = await _context.Categories.Include(x => x.Products).ToListAsync();
-
-        ProductVm productVm = new ProductVm()
-        {
-            Categories = categories
-        };
-
-        return View(productVm);
+        return View();
     }
 
     public async Task<IActionResult> Detail(int? id)

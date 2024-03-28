@@ -1,10 +1,13 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using P237_Nest.Data;
 using P237_Nest.Models;
 
 namespace P237_Nest.Areas.Admin.Controllers;
 [Area("Admin")]
+[Authorize(Roles = "Admin")]
+
 public class SizeController : Controller
 {
     private readonly AppDbContext _context;

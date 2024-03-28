@@ -29728,6 +29728,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\client\assets\categoryIcons\13b5ee91-5b57-4351-bb0d-a9525bcef69a_Screenshot 2024-03-10 163715 (1).png))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\client\assets\categoryIcons\17ece8ed-a48e-4de5-ba97-a47cfb1e7d4a_Screenshot 2024-03-10 163715 (1).png))">
+      <SourceType>Package</SourceType>
+      <SourceId>P237_Nest</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/P237_Nest</BasePath>
+      <RelativePath>client/assets/categoryIcons/17ece8ed-a48e-4de5-ba97-a47cfb1e7d4a_Screenshot 2024-03-10 163715 (1).png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\client\assets\categoryIcons\17ece8ed-a48e-4de5-ba97-a47cfb1e7d4a_Screenshot 2024-03-10 163715 (1).png))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\client\assets\categoryIcons\18188673-29d2-450d-a2ec-58b83e677d5a_Screenshot 2024-03-10 163715 (1).png))">
       <SourceType>Package</SourceType>
       <SourceId>P237_Nest</SourceId>
@@ -32064,6 +32080,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\client\assets\imgs\products\878db0a1-2d16-4b08-97cb-d4dec555b247_—Pngtree—computer wealth management information statistics_4678114.png))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\client\assets\imgs\products\88036659-30c5-4100-9b49-b891aa15a15b_Screenshot 2024-03-10 163715.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>P237_Nest</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/P237_Nest</BasePath>
+      <RelativePath>client/assets/imgs/products/88036659-30c5-4100-9b49-b891aa15a15b_Screenshot 2024-03-10 163715.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\client\assets\imgs\products\88036659-30c5-4100-9b49-b891aa15a15b_Screenshot 2024-03-10 163715.png))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\client\assets\imgs\products\89282453-498f-4556-b96e-bb8574fa01f3_—Pngtree—computer wealth management information statistics_4678114.png))">
       <SourceType>Package</SourceType>
       <SourceId>P237_Nest</SourceId>
@@ -32111,6 +32143,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\client\assets\imgs\products\976ee73d-d692-43b0-bf84-438a13a2b73d_wallpaperflare.com_wallpaper (2).jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\client\assets\imgs\products\9945900b-346b-412f-93c4-cc8d68d2f3af_Screenshot 2024-03-10 163715.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>P237_Nest</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/P237_Nest</BasePath>
+      <RelativePath>client/assets/imgs/products/9945900b-346b-412f-93c4-cc8d68d2f3af_Screenshot 2024-03-10 163715.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\client\assets\imgs\products\9945900b-346b-412f-93c4-cc8d68d2f3af_Screenshot 2024-03-10 163715.png))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\client\assets\imgs\products\9d7857fe-c964-4d63-ab0d-d8820e9e44ec_wallpaperflare.com_wallpaper (2).jpg))">
       <SourceType>Package</SourceType>
@@ -32447,6 +32495,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\client\assets\imgs\products\e835368c-a1e5-46b6-bbcf-b8a4aac923df_—Pngtree—computer wealth management information statistics_4678114.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\client\assets\imgs\products\e8ef1e4a-9918-4ea7-b5e9-b8d226fe6c72_Screenshot 2024-03-10 163715 (1).png))">
+      <SourceType>Package</SourceType>
+      <SourceId>P237_Nest</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/P237_Nest</BasePath>
+      <RelativePath>client/assets/imgs/products/e8ef1e4a-9918-4ea7-b5e9-b8d226fe6c72_Screenshot 2024-03-10 163715 (1).png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\client\assets\imgs\products\e8ef1e4a-9918-4ea7-b5e9-b8d226fe6c72_Screenshot 2024-03-10 163715 (1).png))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\client\assets\imgs\products\eb0d50e7-630e-4dad-b367-5219a7147682_—Pngtree—computer wealth management information statistics_4678114.png))">
       <SourceType>Package</SourceType>

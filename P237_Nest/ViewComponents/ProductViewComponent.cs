@@ -13,13 +13,13 @@ public class ProductViewComponent : ViewComponent
         _context = context;
     }
 
-    public async Task<IViewComponentResult> InvokeAsync()
+    public async Task<IViewComponentResult> InvokeAsync(int? categoryId)
     {
-        var products = await _context.Products
+        var products = _context.Products
             .Include(x => x.Category)
-            .Include(x => x.ProductImages)
-            .OrderByDescending(x => x.Id).Take(20).ToListAsync();
-        return View(products);
+            .Include(x => x.ProductImages);
+        return categoryId == null ? View(await products.OrderByDescending(x => x.Id).Take(20).ToListAsync())
+                                  : View(await products.Where(x => x.CategoryId == categoryId).OrderByDescending(x => x.Id).Take(20).ToListAsync());
     }
 
 

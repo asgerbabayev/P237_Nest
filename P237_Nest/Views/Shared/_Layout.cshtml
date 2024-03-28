@@ -267,42 +267,34 @@
                                     </a>
                                     <a href="page-account.html"><span class="lable ml-0">Account</span></a>
                                     <div class="cart-dropdown-wrap cart-dropdown-hm2 account-dropdown">
-                                        <ul>
-                                            <li>
-                                                <a href="page-account.html">
-                                                    <i class="fi fi-rs-user mr-10"></i>My
-                                                    Account
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="page-account.html">
-                                                    <i class="fi fi-rs-location-alt mr-10"></i>Order Tracking
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="page-account.html">
-                                                    <i class="fi fi-rs-label mr-10"></i>My
-                                                    Voucher
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="shop-wishlist.html">
-                                                    <i class="fi fi-rs-heart mr-10"></i>My
-                                                    Wishlist
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="page-account.html">
-                                                    <i class="fi fi-rs-settings-sliders mr-10"></i>Setting
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="page-login.html">
-                                                    <i class="fi fi-rs-sign-out mr-10"></i>Sign
-                                                    out
-                                                </a>
-                                            </li>
-                                        </ul>
+                                        @if (User.Identity.IsAuthenticated)
+                                        {
+                                            <ul>
+                                                <li>
+                                                    <a href="page-account.html">
+                                                        <i class="fi fi-rs-user mr-10"></i>@User.Identity.Name
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a asp-action="LogOut" asp-controller="Account">
+                                                        <i class="fi fi-rs-sign-out mr-10"></i>Sign
+                                                        out
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        }
+                                        else
+                                        {
+                                            <ul>
+                                              
+                                                <li>
+                                                    <a asp-action="Login" asp-controller="Account">
+                                                        <i class="fi fi-rs-sign-out mr-10"></i>Sign
+                                                        In
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        }
                                     </div>
                                 </div>
                             </div>
@@ -1137,6 +1129,7 @@
     <!-- Template  JS -->
     <script src="~/client/assets/js/main.js?v=4.0"></script>
     <script src="~/client/assets/js/shop.js?v=4.0"></script>
+    @await RenderSectionAsync("Scripts",false)
 </body>
 
 </html>

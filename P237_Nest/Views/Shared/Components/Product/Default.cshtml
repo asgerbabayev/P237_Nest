@@ -6,8 +6,8 @@
             <div class="product-img-action-wrap">
                 <div class="product-img product-img-zoom">
                     <a asp-controller="Product" asp-action="Detail" asp-route-id="@product.Id">
-                        <img class="default-img" src="~/client/assets/imgs/products/@(product.ProductImages.FirstOrDefault(x=>x.IsMain).Url)" alt="" />
-                        <img class="hover-img" style="" src="~/client/assets/imgs/products/@(product.ProductImages.FirstOrDefault(x=>x.IsHover).Url)" alt="" />
+                        <img class="default-img" style="height:150px;object-fit:cover" src="~/client/assets/imgs/products/@(product.ProductImages.FirstOrDefault(x=>x.IsMain).Url)" alt="" />
+                        <img class="hover-img" style="height:150px; object-fit:cover" src="~/client/assets/imgs/products/@(product.ProductImages.FirstOrDefault(x=>x.IsHover).Url)" alt="" />
                     </a>
                 </div>
                 <div class="product-action-1">

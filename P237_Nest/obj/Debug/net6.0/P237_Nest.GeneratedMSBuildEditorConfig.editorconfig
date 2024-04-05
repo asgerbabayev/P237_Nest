@@ -9,131 +9,151 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = P237_Nest
 build_property.RootNamespace = P237_Nest
-build_property.ProjectDir = C:\Users\asger\Desktop\Files\P237_Nest\P237_Nest\
+build_property.ProjectDir = C:\Users\asger\Desktop\Desktop\Files\P237_Nest\P237_Nest\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\asger\Desktop\Files\P237_Nest\P237_Nest
+build_property.MSBuildProjectDirectory = C:\Users\asger\Desktop\Desktop\Files\P237_Nest\P237_Nest
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/asger/Desktop/Files/P237_Nest/P237_Nest/Areas/Admin/Views/Category/Create.cshtml]
+[C:/Users/asger/Desktop/Desktop/Files/P237_Nest/P237_Nest/Areas/Admin/Views/Category/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asger/Desktop/Files/P237_Nest/P237_Nest/Areas/Admin/Views/Category/Edit.cshtml]
+[C:/Users/asger/Desktop/Desktop/Files/P237_Nest/P237_Nest/Areas/Admin/Views/Category/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asger/Desktop/Files/P237_Nest/P237_Nest/Areas/Admin/Views/Category/Index.cshtml]
+[C:/Users/asger/Desktop/Desktop/Files/P237_Nest/P237_Nest/Areas/Admin/Views/Category/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asger/Desktop/Files/P237_Nest/P237_Nest/Areas/Admin/Views/Dashboard/Index.cshtml]
+[C:/Users/asger/Desktop/Desktop/Files/P237_Nest/P237_Nest/Areas/Admin/Views/Dashboard/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGFzaGJvYXJkXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asger/Desktop/Files/P237_Nest/P237_Nest/Areas/Admin/Views/ProductSize/Create.cshtml]
+[C:/Users/asger/Desktop/Desktop/Files/P237_Nest/P237_Nest/Areas/Admin/Views/ProductSize/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFNpemVcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asger/Desktop/Files/P237_Nest/P237_Nest/Areas/Admin/Views/ProductSize/Index.cshtml]
+[C:/Users/asger/Desktop/Desktop/Files/P237_Nest/P237_Nest/Areas/Admin/Views/ProductSize/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFNpemVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asger/Desktop/Files/P237_Nest/P237_Nest/Areas/Admin/Views/Product/Create.cshtml]
+[C:/Users/asger/Desktop/Desktop/Files/P237_Nest/P237_Nest/Areas/Admin/Views/Product/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asger/Desktop/Files/P237_Nest/P237_Nest/Areas/Admin/Views/Product/Detail.cshtml]
+[C:/Users/asger/Desktop/Desktop/Files/P237_Nest/P237_Nest/Areas/Admin/Views/Product/Detail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxEZXRhaWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asger/Desktop/Files/P237_Nest/P237_Nest/Areas/Admin/Views/Product/Index.cshtml]
+[C:/Users/asger/Desktop/Desktop/Files/P237_Nest/P237_Nest/Areas/Admin/Views/Product/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asger/Desktop/Desktop/Files/P237_Nest/P237_Nest/Areas/Admin/Views/Product/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asger/Desktop/Files/P237_Nest/P237_Nest/Areas/Admin/Views/Shared/404.cshtml]
+[C:/Users/asger/Desktop/Desktop/Files/P237_Nest/P237_Nest/Areas/Admin/Views/Shared/404.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXDQwNC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asger/Desktop/Files/P237_Nest/P237_Nest/Areas/Admin/Views/Shared/_CategoryPartial.cshtml]
+[C:/Users/asger/Desktop/Desktop/Files/P237_Nest/P237_Nest/Areas/Admin/Views/Shared/_CategoryPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9DYXRlZ29yeVBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asger/Desktop/Files/P237_Nest/P237_Nest/Areas/Admin/Views/Shared/_Layout.cshtml]
+[C:/Users/asger/Desktop/Desktop/Files/P237_Nest/P237_Nest/Areas/Admin/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asger/Desktop/Files/P237_Nest/P237_Nest/Areas/Admin/Views/Shared/_SizePartial.cshtml]
+[C:/Users/asger/Desktop/Desktop/Files/P237_Nest/P237_Nest/Areas/Admin/Views/Shared/_ProductImagePartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9Qcm9kdWN0SW1hZ2VQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asger/Desktop/Desktop/Files/P237_Nest/P237_Nest/Areas/Admin/Views/Shared/_SizePartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9TaXplUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asger/Desktop/Files/P237_Nest/P237_Nest/Areas/Admin/Views/Size/Create.cshtml]
+[C:/Users/asger/Desktop/Desktop/Files/P237_Nest/P237_Nest/Areas/Admin/Views/Size/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2l6ZVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asger/Desktop/Files/P237_Nest/P237_Nest/Areas/Admin/Views/Size/Index.cshtml]
+[C:/Users/asger/Desktop/Desktop/Files/P237_Nest/P237_Nest/Areas/Admin/Views/Size/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2l6ZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asger/Desktop/Files/P237_Nest/P237_Nest/Areas/Admin/Views/_ViewImports.cshtml]
+[C:/Users/asger/Desktop/Desktop/Files/P237_Nest/P237_Nest/Areas/Admin/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asger/Desktop/Files/P237_Nest/P237_Nest/Areas/Admin/Views/_ViewStart.cshtml]
+[C:/Users/asger/Desktop/Desktop/Files/P237_Nest/P237_Nest/Areas/Admin/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asger/Desktop/Files/P237_Nest/P237_Nest/Views/Auth/Login.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxMb2dpbi5jc2h0bWw=
+[C:/Users/asger/Desktop/Desktop/Files/P237_Nest/P237_Nest/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asger/Desktop/Files/P237_Nest/P237_Nest/Views/Auth/Register.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxSZWdpc3Rlci5jc2h0bWw=
+[C:/Users/asger/Desktop/Desktop/Files/P237_Nest/P237_Nest/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asger/Desktop/Files/P237_Nest/P237_Nest/Views/Home/Index.cshtml]
+[C:/Users/asger/Desktop/Desktop/Files/P237_Nest/P237_Nest/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asger/Desktop/Files/P237_Nest/P237_Nest/Views/Product/Detail.cshtml]
+[C:/Users/asger/Desktop/Desktop/Files/P237_Nest/P237_Nest/Views/Product/Detail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxEZXRhaWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asger/Desktop/Files/P237_Nest/P237_Nest/Views/Product/Index.cshtml]
+[C:/Users/asger/Desktop/Desktop/Files/P237_Nest/P237_Nest/Views/Product/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asger/Desktop/Files/P237_Nest/P237_Nest/Views/Shared/404.cshtml]
+[C:/Users/asger/Desktop/Desktop/Files/P237_Nest/P237_Nest/Views/Product/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxTZWFyY2guY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asger/Desktop/Desktop/Files/P237_Nest/P237_Nest/Views/Shared/404.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXDQwNC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asger/Desktop/Files/P237_Nest/P237_Nest/Views/Shared/Components/Cart/Default.cshtml]
+[C:/Users/asger/Desktop/Desktop/Files/P237_Nest/P237_Nest/Views/Shared/Components/Cart/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ2FydFxEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asger/Desktop/Files/P237_Nest/P237_Nest/Views/Shared/Components/Category/Default.cshtml]
+[C:/Users/asger/Desktop/Desktop/Files/P237_Nest/P237_Nest/Views/Shared/Components/Category/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ2F0ZWdvcnlcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asger/Desktop/Files/P237_Nest/P237_Nest/Views/Shared/Components/HomeCategory/Default.cshtml]
+[C:/Users/asger/Desktop/Desktop/Files/P237_Nest/P237_Nest/Views/Shared/Components/HomeCategory/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcSG9tZUNhdGVnb3J5XERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asger/Desktop/Files/P237_Nest/P237_Nest/Views/Shared/Components/Product/Default.cshtml]
+[C:/Users/asger/Desktop/Desktop/Files/P237_Nest/P237_Nest/Views/Shared/Components/HomeProduct/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcSG9tZVByb2R1Y3RcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asger/Desktop/Desktop/Files/P237_Nest/P237_Nest/Views/Shared/Components/Product/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcUHJvZHVjdFxEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asger/Desktop/Files/P237_Nest/P237_Nest/Views/Shared/_Layout.cshtml]
+[C:/Users/asger/Desktop/Desktop/Files/P237_Nest/P237_Nest/Views/Shared/Components/Search/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcU2VhcmNoXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asger/Desktop/Desktop/Files/P237_Nest/P237_Nest/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asger/Desktop/Files/P237_Nest/P237_Nest/Views/_ViewImports.cshtml]
+[C:/Users/asger/Desktop/Desktop/Files/P237_Nest/P237_Nest/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asger/Desktop/Files/P237_Nest/P237_Nest/Views/_ViewStart.cshtml]
+[C:/Users/asger/Desktop/Desktop/Files/P237_Nest/P237_Nest/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

@@ -1,4 +1,4 @@
-﻿@model ProductVm
+﻿@model PaginateVm
 <main class="main">
     <div class="page-header mt-30 mb-50">
         <div class="container">
@@ -82,28 +82,44 @@
                         </div>
                     </div>
                 </div>
-                <div class="row product-grid">
+                <div class="row product-grid products-page">
+
                     @await Component.InvokeAsync("Product");
-                    <!--end product card-->
                 </div>
-                <!--product grid-->
+
                 <div class="pagination-area mt-20 mb-20">
                     <nav aria-label="Page navigation example">
                         <ul class="pagination justify-content-start">
-                            <li class="page-item">
-                                <a class="page-link" href="#"><i class="fi-rs-arrow-small-left"></i></a>
-                            </li>
-                            <li class="page-item"><a class="page-link" href="#">1</a></li>
-                            <li class="page-item active"><a class="page-link" href="#">2</a></li>
-                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            @if (Model.CurrentPage != 1)
+                            {
+                                <li class="page-item">
+                                    <a class="page-link" asp-action="Index" asp-controller="Product" asp-route-page="@(Model.CurrentPage-1)"><i class="fi-rs-arrow-small-left"></i></a>
+                                </li>
+                            }
+
+                            @for (int i = 1; i <= Model.TotalPageCount; i++)
+                            {
+                                @*  if (i >= 3)
+                            {
                             <li class="page-item"><a class="page-link dot" href="#">...</a></li>
-                            <li class="page-item"><a class="page-link" href="#">6</a></li>
-                            <li class="page-item">
-                                <a class="page-link" href="#"><i class="fi-rs-arrow-small-right"></i></a>
-                            </li>
+                            <li class="page-item @(Model.CurrentPage == i ? "active" : "")"><a class="page-link" href="#">@Model.TotalPageCount</a></li>
+                            break;
+                            } *@
+                                <li class="page-item @(Model.CurrentPage == i ? "active" : "")"><a class="page-link "  asp-action="Index" asp-controller="Product" asp-route-page="@i">@i</a></li>
+                            }
+                            @if (Model.CurrentPage != Model.TotalPageCount)
+                            {
+                                <li class="page-item">
+                                    <a class="page-link" asp-action="Index" asp-controller="Product" asp-route-page="@(Model.CurrentPage+1)"><i class="fi-rs-arrow-small-right"></i></a>
+                                </li>
+                            }
                         </ul>
                     </nav>
                 </div>
+
+                <!--end product card-->
+                <!--product grid-->
+
                 <section class="section-padding pb-5">
                     <div class="section-title">
                         <h3 class="">Deals Of The Day</h3>
@@ -270,7 +286,7 @@
                     <h5 class="section-title style-1 mb-30">Category</h5>
                     <ul>
                         @await Component.InvokeAsync(nameof(Category))
-                    
+
                     </ul>
                 </div>
                 <!-- Fillter By Price -->
@@ -368,3 +384,28 @@
         </div>
     </div>
 </main>
+@* 
+@section Scripts {
+    <script>
+        const pageLink = document.querySelectorAll(".page-link");
+
+        pageLink.forEach(link => {
+
+            link.addEventListener("click", (e) => {
+                e.preventDefault();
+
+                const page = e.target.dataset.page;
+
+                fetch("https://localhost:7075/Product/ChangePage?page=" + page, {
+                    method: "POST"
+                }).then(x => x.text()).then(x => {
+                    console.log(x);
+                    document.querySelector(".products-page").innerHTML = x;
+                });
+
+            })
+
+        })
+
+    </script>
+} *@

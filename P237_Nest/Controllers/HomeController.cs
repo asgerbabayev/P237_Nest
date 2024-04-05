@@ -11,6 +11,6 @@ public class HomeController : Controller
 
     public IActionResult ProductCategoryFilter(int? id)
     {
-        return ViewComponent("Product", id);
+        return ViewComponent("HomeProduct", new { categoryId = id });
     }
 }

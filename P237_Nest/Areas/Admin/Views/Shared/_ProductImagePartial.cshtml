@@ -1,0 +1,8 @@
+﻿@model List<ProductImage>
+@foreach (var image in Model.Where(x => !x.IsHover && !x.IsMain))
+{
+    <span class="deleteProductBtn btn text-danger" data-id="@image.Id">X</span>
+    <div class="col-2">
+        <img style="width:150px; height:100px" src="~/client/assets/imgs/products/@image.Url" />
+    </div>
+}

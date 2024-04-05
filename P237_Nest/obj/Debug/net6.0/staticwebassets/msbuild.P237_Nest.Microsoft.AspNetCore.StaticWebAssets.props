@@ -31552,22 +31552,6 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\client\assets\imgs\products\126f500e-ec53-4fe4-be6d-e6212506de12_—Pngtree—computer wealth management information statistics_4678114.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\client\assets\imgs\products\143c5cfe-2c82-4a59-843d-126016089fa0_wallpaperflare.com_wallpaper (1).jpg))">
-      <SourceType>Package</SourceType>
-      <SourceId>P237_Nest</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/P237_Nest</BasePath>
-      <RelativePath>client/assets/imgs/products/143c5cfe-2c82-4a59-843d-126016089fa0_wallpaperflare.com_wallpaper (1).jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\client\assets\imgs\products\143c5cfe-2c82-4a59-843d-126016089fa0_wallpaperflare.com_wallpaper (1).jpg))</OriginalItemSpec>
-    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\client\assets\imgs\products\17116927-2eac-45c7-a5dc-5a5345ef4d5a_wallpaperflare.com_wallpaper (1).jpg))">
       <SourceType>Package</SourceType>
       <SourceId>P237_Nest</SourceId>
@@ -31583,22 +31567,6 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\client\assets\imgs\products\17116927-2eac-45c7-a5dc-5a5345ef4d5a_wallpaperflare.com_wallpaper (1).jpg))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\client\assets\imgs\products\1f894ebe-c091-4ee3-a9fe-0f03bd38ecd0_—Pngtree—computer wealth management information statistics_4678114.png))">
-      <SourceType>Package</SourceType>
-      <SourceId>P237_Nest</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/P237_Nest</BasePath>
-      <RelativePath>client/assets/imgs/products/1f894ebe-c091-4ee3-a9fe-0f03bd38ecd0_—Pngtree—computer wealth management information statistics_4678114.png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\client\assets\imgs\products\1f894ebe-c091-4ee3-a9fe-0f03bd38ecd0_—Pngtree—computer wealth management information statistics_4678114.png))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\client\assets\imgs\products\213f4145-19ac-4f1a-b11d-82d72a5d3eb8_wallpaperflare.com_wallpaper (2).jpg))">
       <SourceType>Package</SourceType>
@@ -32303,22 +32271,6 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\client\assets\imgs\products\bb1ed87d-8e5f-42fa-bb50-e0753295c7dd_wallpaperflare.com_wallpaper (2).jpg))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\client\assets\imgs\products\bda7bd44-4ac4-44b5-a57a-1d247a4bc13e_wallpaperflare.com_wallpaper (2).jpg))">
-      <SourceType>Package</SourceType>
-      <SourceId>P237_Nest</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/P237_Nest</BasePath>
-      <RelativePath>client/assets/imgs/products/bda7bd44-4ac4-44b5-a57a-1d247a4bc13e_wallpaperflare.com_wallpaper (2).jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\client\assets\imgs\products\bda7bd44-4ac4-44b5-a57a-1d247a4bc13e_wallpaperflare.com_wallpaper (2).jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\client\assets\imgs\products\c9deab6a-537b-4fd0-bf7e-ba56d7a5c8f1_wallpaperflare.com_wallpaper (2).jpg))">
       <SourceType>Package</SourceType>

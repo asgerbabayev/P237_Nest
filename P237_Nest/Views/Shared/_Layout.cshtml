@@ -197,24 +197,7 @@
                         <a href="index.html"><img src="~/client/assets/imgs/theme/logo.svg" alt="logo" /></a>
                     </div>
                     <div class="header-right">
-                        <div class="search-style-2">
-                            <form action="#">
-                                <select class="select-active">
-                                    <option>All Categories</option>
-                                    <option>Milks and Dairies</option>
-                                    <option>Wines & Alcohol</option>
-                                    <option>Clothing & Beauty</option>
-                                    <option>Pet Foods & Toy</option>
-                                    <option>Fast food</option>
-                                    <option>Baking material</option>
-                                    <option>Vegetables</option>
-                                    <option>Fresh Seafood</option>
-                                    <option>Noodles & Rice</option>
-                                    <option>Ice cream</option>
-                                </select>
-                                <input type="text" placeholder="Search for items..." />
-                            </form>
-                        </div>
+                        @await Component.InvokeAsync("Search")
                         <div class="header-action-right">
                             <div class="header-action-2">
                                 <div class="search-location">
@@ -286,7 +269,7 @@
                                         else
                                         {
                                             <ul>
-                                              
+
                                                 <li>
                                                     <a asp-action="Login" asp-controller="Account">
                                                         <i class="fi fi-rs-sign-out mr-10"></i>Sign
@@ -1129,7 +1112,8 @@
     <!-- Template  JS -->
     <script src="~/client/assets/js/main.js?v=4.0"></script>
     <script src="~/client/assets/js/shop.js?v=4.0"></script>
-    @await RenderSectionAsync("Scripts",false)
+    
+    @await RenderSectionAsync("Scripts", false)
 </body>
 
 </html>

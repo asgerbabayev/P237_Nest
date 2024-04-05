@@ -14,6 +14,7 @@ builder.Services.AddDbContext<AppDbContext>(x =>
 builder.Services.AddHttpContextAccessor();
 
 builder.Services.AddScoped<ILayoutService, LayoutService>();
+builder.Services.AddTransient<IEmailService, EmailService>();
 
 builder.Services.AddIdentity<AppUser, IdentityRole>(options =>
 {
@@ -25,13 +26,14 @@ builder.Services.AddIdentity<AppUser, IdentityRole>(options =>
     options.Lockout.AllowedForNewUsers = false;
     options.Lockout.MaxFailedAccessAttempts = 5;
     options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(5);
+    options.SignIn.RequireConfirmedEmail = true;
 }).AddEntityFrameworkStores<AppDbContext>()
 .AddDefaultTokenProviders();
 
-builder.Services.ConfigureApplicationCookie(x =>
-{
-    x.LoginPath = "/Auth/Login";
-});
+//builder.Services.ConfigureApplicationCookie(x =>
+//{
+//    x.LoginPath = "/Auth/Login";
+//});
 
 var app = builder.Build();
 

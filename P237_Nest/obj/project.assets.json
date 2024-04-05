@@ -10865,11 +10865,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\asger\\Desktop\\Files\\P237_Nest\\P237_Nest\\P237_Nest.csproj",
+      "projectUniqueName": "C:\\Users\\asger\\Desktop\\Desktop\\Files\\P237_Nest\\P237_Nest\\P237_Nest.csproj",
       "projectName": "P237_Nest",
-      "projectPath": "C:\\Users\\asger\\Desktop\\Files\\P237_Nest\\P237_Nest\\P237_Nest.csproj",
+      "projectPath": "C:\\Users\\asger\\Desktop\\Desktop\\Files\\P237_Nest\\P237_Nest\\P237_Nest.csproj",
       "packagesPath": "C:\\Users\\asger\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\asger\\Desktop\\Files\\P237_Nest\\P237_Nest\\obj\\",
+      "outputPath": "C:\\Users\\asger\\Desktop\\Desktop\\Files\\P237_Nest\\P237_Nest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\asger\\AppData\\Roaming\\NuGet\\NuGet.Config",

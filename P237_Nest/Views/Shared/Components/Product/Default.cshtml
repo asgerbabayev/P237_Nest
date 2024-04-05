@@ -1,5 +1,6 @@
-﻿@model List<Product>
-@foreach (var product in Model)
+﻿@model PaginateVm
+
+@foreach (var product in Model.Products)
 {
     <div class="col-lg-1-5 col-md-4 col-12 col-sm-6">
         <div class="product-cart-wrap mb-30">
@@ -53,3 +54,6 @@
         </div>
     </div>
 }
+
+
+

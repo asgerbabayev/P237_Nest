@@ -14,10 +14,30 @@ public class ProductController : Controller
     {
         _context = context;
     }
-    public IActionResult Index()
+    public async Task<IActionResult> Index(ProductSearchVm? vm, int page = 1, int pageSize = 1)
     {
-        return View();
+        var products = _context.Products.AsQueryable();
+        products = products
+           .Include(x => x.Category)
+           .Include(x => x.ProductImages)
+           .Skip((page - 1) * pageSize)
+           .Take(pageSize);
+        var count = GetPageCount(pageSize);
+        PaginateVm paginateVm = new PaginateVm()
+        {
+            CurrentPage = page,
+            TotalPageCount = count,
+            Products = await products.ToListAsync()
+        };
+        return View(paginateVm);
     }
+    public int GetPageCount(int pageSize)
+    {
+        var productCount = _context.Products.Count();
+        return (int)Math.Ceiling((decimal)productCount / pageSize);
+    }
+
+
 
     public async Task<IActionResult> Detail(int? id)
     {
@@ -71,6 +91,31 @@ public class ProductController : Controller
         }
         else basketVms = new List<BasketVm>();
         return basketVms;
+    }
+
+    public IActionResult ChangePage(int page = 1, int pageSize = 1)
+    {
+        return ViewComponent("Product", new { page = page, pageSize = pageSize });
+    }
+
+    public async Task<IActionResult> Search(ProductSearchVm vm)
+    {
+        var products = _context.Products.Include(x => x.ProductImages)
+          .Include(c => c.Category).AsQueryable();
+
+        if (vm.CategoryId != null && vm.Name == null)
+        {
+            products.Where(x => x.CategoryId == vm.CategoryId);
+        }
+        else if (vm.Name != null && vm.CategoryId == null)
+        {
+            products.Where(x => x.Name.ToLower().StartsWith(vm.Name.ToLower()));
+        }
+        else
+        {
+            products.Where(x => x.CategoryId == vm.CategoryId && x.Name.ToLower().StartsWith(vm.Name.ToLower()));
+        }
+        return View(await products.ToListAsync());
     }
 }
 

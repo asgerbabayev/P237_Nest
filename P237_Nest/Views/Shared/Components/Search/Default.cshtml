@@ -1,0 +1,9 @@
+﻿@model ProductSearchVm
+<div class="search-style-2">
+    <form asp-action="Search" asp-controller="Product">
+        <select class="select-active" asp-for="CategoryId" asp-items="@(new SelectList(Model.Categories,nameof(Category.Id),nameof(Category.Name)))">
+            <option>All Categories</option>
+        </select>
+        <input type="text" asp-for="Name" placeholder="Search for items..." />
+    </form>
+</div>

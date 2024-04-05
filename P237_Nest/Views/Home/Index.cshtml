@@ -211,7 +211,7 @@
             <div class="tab-content" id="myTabContent">
                 <div class="tab-pane fade show active" id="tab-one" role="tabpanel" aria-labelledby="tab-one">
                     <div class="row product-grid-4 products">
-                        @await Component.InvokeAsync("Product")
+                        @await Component.InvokeAsync("HomeProduct")
                     </div>
                     <!--End product-grid-4-->
                 </div>
@@ -5109,7 +5109,7 @@
             category.addEventListener("click", (e) => {
                 e.preventDefault();
                 console.log("clicked")
-                fetch(`/Home/ProductCategoryFilter/${id}`)
+                fetch(`/Home/ProductCategoryFilter?id=${id}`)
                     .then(x => x.text())
                     .then(x => {
                         document.querySelector(".products").innerHTML = x;
